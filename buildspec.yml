@@ -6,7 +6,7 @@ phases:
       python: 3.9
     commands:
       - python --version
-      - pip install --upgrade pip setuptools wheel
+      - pip install --upgrade "pip<25" "setuptools<81" wheel
       - pip install "PyYAML==5.4.1" --no-build-isolation
       - pip install "cfn-lint==0.87.10" "taskcat==0.9.58"
 
