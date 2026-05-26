@@ -2,12 +2,19 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      python: 3.9
     commands:
-      - pip install cfn-lint taskcat
+      - python --version
+      - pip install --upgrade pip setuptools wheel
+      - pip install "PyYAML==5.4.1" --no-build-isolation
+      - pip install "cfn-lint==0.87.10" "taskcat==0.9.58"
+
   pre_build:
     commands:
       - echo Running cfn-lint
       - cfn-lint templates/infrastructure.yaml
+
   build:
     commands:
       - echo Running taskcat
