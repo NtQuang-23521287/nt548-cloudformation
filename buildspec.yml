@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - pip install cfn-lint taskcat
+  pre_build:
+    commands:
+      - echo Running cfn-lint
+      - cfn-lint templates/infrastructure.yaml
+  build:
+    commands:
+      - echo Running taskcat
+      - taskcat test run
+
+artifacts:
+  files:
+    - templates/infrastructure.yaml
+    - .taskcat.yml

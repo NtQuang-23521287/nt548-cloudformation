@@ -1,0 +1,45 @@
+-----------------------------------------------------------------------------
+Region: ap-southeast-1
+StackName: tCaT-nt548-lab02-cloudformation-default-2377265c5c7b40f8bfe24b9967942689
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                           LogicalResourceId                                                         ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------  ------------------------------------------------------------------------  ---------------------------
+2026-05-26 17:39:08.860000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack             tCaT-nt548-lab02-cloudformation-default-2377265c5c7b40f8bfe24b9967942689
+2026-05-26 17:39:07.132000+00:00  CREATE_COMPLETE     AWS::EC2::Instance                     WebServer
+2026-05-26 17:38:58.351000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  RouteAssociation
+2026-05-26 17:38:58.091000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PublicRoute
+2026-05-26 17:38:57.899000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  RouteAssociation                                                          Resource creation Initiated
+2026-05-26 17:38:57.553000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicRoute                                                               Resource creation Initiated
+2026-05-26 17:38:56.659000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  RouteAssociation
+2026-05-26 17:38:56.589000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicRoute
+2026-05-26 17:38:56.268000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PublicRouteTable
+2026-05-26 17:38:55.301000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance                     WebServer                                                                 Resource creation Initiated
+2026-05-26 17:38:53.434000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance                     WebServer
+2026-05-26 17:38:53.111000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                WebSecurityGroup
+2026-05-26 17:38:50.561000+00:00  CREATE_COMPLETE     AWS::EC2::VPCGatewayAttachment         AttachGateway
+2026-05-26 17:38:49.195000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet
+2026-05-26 17:38:48.822000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         AttachGateway                                                             Resource creation Initiated
+2026-05-26 17:38:48.069000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         AttachGateway
+2026-05-26 17:38:47.735000+00:00  CREATE_COMPLETE     AWS::EC2::InternetGateway              InternetGateway
+2026-05-26 17:38:46.687000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                WebSecurityGroup                                                          Resource creation Initiated
+2026-05-26 17:38:45.932000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet                                                              Resource creation Initiated
+2026-05-26 17:38:45.478000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicRouteTable                                                          Resource creation Initiated
+2026-05-26 17:38:45.042000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet
+2026-05-26 17:38:44.672000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicRouteTable
+2026-05-26 17:38:44.570000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                WebSecurityGroup
+2026-05-26 17:38:44.249000+00:00  CREATE_COMPLETE     AWS::EC2::VPC                          LabVPC
+2026-05-26 17:38:32.513000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          LabVPC                                                                    Resource creation Initiated
+2026-05-26 17:38:32.057000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway                                                           Resource creation Initiated
+2026-05-26 17:38:31.279000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          LabVPC
+2026-05-26 17:38:31.275000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway
+2026-05-26 17:38:29.230000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack             tCaT-nt548-lab02-cloudformation-default-2377265c5c7b40f8bfe24b9967942689  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Wednesday, 27. May 2026 12:39AM
+-----------------------------------------------------------------------------
+

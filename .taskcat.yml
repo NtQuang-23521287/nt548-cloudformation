@@ -1,0 +1,10 @@
+project:
+  name: nt548-lab02-cloudformation
+  regions:
+    - ap-southeast-1
+
+tests:
+  default:
+    template: templates/infrastructure.yaml
+    parameters:
+      KeyName: nt548-key
